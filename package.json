@@ -1,0 +1,23 @@
+{
+  "name": "drag-n-drop",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html --dist-dir ./dist --public-url ./",
+    "test": "npm run build && ex-test -d ./dist -t ./test/test.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "excalibur": "0.29.3",
+    "typescript": "5.5.2",
+    "@excaliburjs/testing": "0.25.1"
+  },
+  "devDependencies": {
+    "parcel": "2.12.0"
+  },
+  "homepage": "",
+  "repository": {},
+  "bugs": {}
+}
